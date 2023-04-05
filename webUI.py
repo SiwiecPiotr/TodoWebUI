@@ -32,4 +32,3 @@ for i in list:
 
 st.text_input(label="321tseT", placeholder="Enter a todo here", on_change=add_todo, key="-IN-")
 st.button(label="Delete", on_click=remove_selections)
-st.session_state
